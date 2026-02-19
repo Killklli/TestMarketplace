@@ -1,62 +1,12 @@
 {
   "Test Mod": {
-    "github": "https://github.com/Killklli/MNSGRecompRando",
-    "thumbs": "https://github.com/Killklli/MNSGRecompRando/raw/refs/heads/main/thumb.dds",
-    "description": "This is a test description for the mods store"
-  },
-  "Enhanced Graphics Pack": {
-    "github": "https://github.com/modders/mnsg-hd-textures",
-    "thumbs": "https://github.com/modders/mnsg-hd-textures/raw/main/preview.png",
-    "description": "High-definition texture pack with improved visual effects and enhanced lighting"
-  },
-  "Difficulty Rebalance": {
-    "github": "https://github.com/gamebalance/mnsg-hardcore",
-    "thumbs": "https://github.com/gamebalance/mnsg-hardcore/raw/main/thumb.jpg",
-    "description": "Increases game difficulty with stronger enemies and reduced health items"
-  },
-  "Custom Music Pack": {
-    "github": "https://github.com/soundmods/mnsg-remixed",
-    "thumbs": "https://github.com/soundmods/mnsg-remixed/raw/main/cover.png",
-    "description": "Remixed soundtrack featuring orchestral arrangements of the original music"
-  },
-  "Quality of Life Improvements": {
-    "github": "https://github.com/qol/mnsg-enhancements",
-    "thumbs": "https://github.com/qol/mnsg-enhancements/raw/main/screenshot.webp",
-    "description": "Various quality of life improvements including faster text, better controls, and UI enhancements"
-  },
-  "Debug Mode": {
-    "github": "https://github.com/devtools/mnsg-debug",
-    "thumbs": "https://github.com/devtools/mnsg-debug/raw/main/debug_thumb.png",
-    "description": "Developer debug mode with level select, infinite health, and testing features"
-  },
-  "Speedrun Timer": {
-    "github": "https://github.com/speedrun/mnsg-timer",
-    "thumbs": "https://github.com/speedrun/mnsg-timer/raw/main/timer_preview.gif",
-    "description": "On-screen timer and splits for speedrunning with customizable display options"
-  },
-  "Character Skin Pack": {
-    "github": "https://github.com/cosmetics/mnsg-skins",
-    "thumbs": "https://github.com/cosmetics/mnsg-skins/raw/main/skins_showcase.jpg",
-    "description": "Collection of alternative character skins and costume variations"
-  },
-  "Randomizer": {
-    "github": "https://github.com/rando/mnsg-randomizer",
-    "thumbs": "https://github.com/rando/mnsg-randomizer/raw/main/rando_thumb.png",
-    "description": "Randomizes item locations, enemy placements, and level layouts for replayability"
-  },
-  "Translation Pack": {
-    "github": "https://github.com/localization/mnsg-multilang",
-    "thumbs": "https://github.com/localization/mnsg-multilang/raw/main/lang_thumb.svg",
-    "description": "Multi-language support pack with translations for Spanish, French, German, and Italian"
-  },
-  "Boss Rush Mode": {
-    "github": "https://github.com/gamemode/mnsg-bossrush",
-    "thumbs": "https://github.com/gamemode/mnsg-bossrush/raw/main/bosses.png",
-    "description": "Fight all bosses in sequence with customizable difficulty and time attack features"
-  },
-  "Performance Optimizer": {
-    "github": "https://github.com/optimization/mnsg-performance",
-    "thumbs": "https://github.com/optimization/mnsg-performance/raw/main/perf_graph.png",
-    "description": "Optimizations for better frame rate and reduced loading times on lower-end hardware"
+    "file_url": "https://github.com/Killklli/MNSGRecompRando/releases/download/v1.0.10/RecompRando.zip",
+    "dependencies" : [
+        "bk_recomp_asset_expansion_pak:0.0.2"
+    ],
+    "short_description": "This is a test description for the mods store",
+    "version": "0.0.3",
+    "id": "rando_recomp",
+    "game_id": "mnsg"
   }
 }
